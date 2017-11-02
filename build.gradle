@@ -1,0 +1,23 @@
+group 'marklogic-java-client-ssl'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin:'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.marklogic:marklogic-xcc:9.0.3'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'commons-configuration:commons-configuration:1.10'
+
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.2.1'
+}
