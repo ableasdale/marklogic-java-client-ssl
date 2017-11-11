@@ -9,7 +9,7 @@ declare namespace x509 = "http://marklogic.com/xdmp/x509";
 (: Variables :)
 
 declare variable $TEMPLATE-NAME := "test-template";
-declare variable $ORGANIZATION := "YOUR_ORG_NAME_HERE";
+declare variable $ORGANIZATION := "MarkLogic Corporation";
 declare variable $X509 as element(x509:req) :=
     <x509:req>
         <x509:version>0</x509:version>
