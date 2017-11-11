@@ -1,6 +1,6 @@
 xquery version "1.0-ml";
 
-(: Configuration Script 4: Configure the SSL Client Certificates with the XDBC Server :)
+(: com.marklogic.support.Configuration Script 4: Configure the SSL Client Certificates with the XDBC Server :)
 
 import module namespace pki = "http://marklogic.com/xdmp/pki" at "/MarkLogic/pki.xqy";
 import module namespace admin = "http://marklogic.com/xdmp/admin" at "/MarkLogic/admin.xqy";

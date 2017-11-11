@@ -1,5 +1,7 @@
+out/
 .gradle
 .idea
 *.jks
 *.p12
 *.iml
+*.log
